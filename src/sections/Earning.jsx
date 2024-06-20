@@ -19,7 +19,7 @@ const base_url=import.meta.env.VITE_BASE_URL;
 
   const handleCalculate = async () => {
     console.log(base_url);
-    const response = await fetch(`${base_url}`, {
+    const response = await fetch(`${base_url}/api/calculate`, {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
