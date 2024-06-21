@@ -1,5 +1,5 @@
 import React from 'react';
-import Share from '../../public/assets/Share.jpg';
+import Share from '/assets/Share.png';
 import Navbar from '../components/Navbar';
 
 
