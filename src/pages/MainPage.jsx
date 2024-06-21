@@ -9,7 +9,6 @@ export default function MainPage() {
   return (
     <>
     <div className='overflow-hidden'>
-
     <Main/>
     <Link/>
     <Earning/>

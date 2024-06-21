@@ -8,7 +8,7 @@ const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
-    <nav className="flex items-center justify-between bg-white bg-opacity-30 backdrop-filter backdrop-blur-lg px-4 py-2 shadow-lg rounded-[35px] h-[90px]">
+    <nav className="flex items-center justify-between bg-white bg-opacity-30 backdrop-filter backdrop-blur-lg px-4 py-2 shadow-lg rounded-[35px] h-[90px] w-[300px] sm:w-auto">
       <div className="flex items-center space-x-4">
 <span className="text-2xl font-bold"> <Link to='/'> Createnary</Link></span>
       </div>
@@ -24,7 +24,7 @@ const Navbar = () => {
           className="w-full md:w-[290px] px-4 py-2 bg-gray-200 bg-opacity-50 rounded-[25px] focus:outline-none focus:ring-2 focus:ring-purple-600"
         />
       </div>
-      <div className="hidden md:flex items-center space-x-4">
+      <div className="hidden lg:flex items-center space-x-4">
         <button className="flex items-center space-x-2">
           <FiShoppingCart className="text-xl" />
           <span className="hidden md:inline">Cart</span>

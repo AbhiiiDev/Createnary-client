@@ -115,15 +115,15 @@ const base_url=import.meta.env.VITE_BASE_URL;
               </div>
             </div>
             <div className="w-full max-w-[174px] h-auto  flex flex-row justify-center items-center md:flex-col gap-[81px] mx-auto md:mx-0">
-              <div className="w-full text-center font-bold text-[22px]">
+              <div className="w-full text-center font-bold text-[18px] md:text-[22px]">
                 Monthly Earning
-                <div className="font-bold text-[#4A508E] text-[40px]">
+                <div className="font-bold text-[#4A508E] text-[24px] md:text-[40px]">
                   ₹{monthly.toLocaleString("en-IN")}
                 </div>
               </div>
-              <div className="w-full text-center font-bold text-[22px]">
+              <div className="w-full text-center font-bold text-[18px] md:text-[22px]">
                 Yearly Earning
-                <div className="font-bold text-[#4A508E] text-[40px]">
+                <div className="font-bold text-[#4A508E] text-[24px] md:text-[40px]">
                   ₹{(monthly * 12).toLocaleString("en-IN")}
                 </div>
               </div>

@@ -5,8 +5,8 @@ import Navbar from '../components/Navbar';
 
 const SecondPage = () => {
   return (
-    <div className='relative'>
-      <div className='fixed z-30 inset-0'>
+    <div className='relative overflow-hidden'>
+      <div className='fixed z-30 top-3 mx-auto md:left-40 md:right-40 left-[30px] '>
       <Navbar/>
       </div>
         <div className='ml-[8px]  flex flex-col md:flex-row justify-between md:mt-36 md:px-[180px]'>
