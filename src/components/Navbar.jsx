@@ -52,10 +52,7 @@ const Navbar = () => {
         <div className="absolute top-16 left-0 w-full bg-white bg-opacity-90 backdrop-filter backdrop-blur-lg shadow-lg rounded-lg md:hidden">
           <div className="flex flex-col items-center space-y-4 py-4">
             <div className="flex items-center justify-between w-11/12">
-              <span className="text-2xl font-bold">Createnary</span>
-              <button onClick={() => setIsMenuOpen(!isMenuOpen)} className="focus:outline-none">
-                <FiX className="text-xl" />
-              </button>
+             
             </div>
             <input
               type="text"
