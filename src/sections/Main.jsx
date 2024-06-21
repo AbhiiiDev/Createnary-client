@@ -6,9 +6,6 @@ import MobileBackground from '/assets/MobileBackground.jpg'
 
 const Main = () => {
 
-
-
-
   
   return (
     
@@ -23,8 +20,8 @@ const Main = () => {
             <div className="fixed z-30 top-3 mx-auto sm:left-40 sm:right-40 left-[30px] ">
             <Navbar />
             </div>
-            <div className="mt-[184px] md:mt-0 flex flex-col md:flex-row items-center justify-center min-h-screen px-4 md:px-16 lg:px-32">
-              <div className="text-center md:text-left md:w-1/2 space-y-4">
+            <div className=" flex flex-col md:flex-row items-center justify-center min-h-screen px-4 md:px-16 lg:px-32">
+              <div className="mt-[184px] md:mt-0 text-center md:text-left md:w-1/2 space-y-4">
                 <h1 className="text-3xl md:text-5xl font-bold">
                   Welcome To India's First
                   <span className="text-[#4A508E]"> Creator's Marketplace</span>
